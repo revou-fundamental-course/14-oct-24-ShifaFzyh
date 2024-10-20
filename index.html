@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Web</title>
+        <link rel="stylesheet" href="css\styles.css">
     </head>
 
     <body>
@@ -11,11 +12,12 @@
             <!-- Logo -->
              <div class="logo-icon"></div>
 
+             <!--Navigasi-->
              <nav>
-                <a href="#">Home</a>
-                <a href="#">Profile</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Message Us</a>
+                <a href="#section-home">Home</a>
+                <a href="#section-profile">Profile</a>
+                <a href="#section-portfolio">Portfolio</a>
+                <a href="#section-message-us">Message Us</a>
              </nav>
         </header>
 
@@ -24,7 +26,7 @@
         <!-- Konten -->
         <main>
             <!--Section Home-->
-            <section>
+            <section id="section-home">
                 <header>
                     <h1>Hi User, Welcome to My Website</h1>
                 </header>
@@ -37,30 +39,54 @@
                 </article>
             </section>
 
+            <hr />
+
             <!--Section Profile-->
-            <section>
+            <section id="section-profile">
                 <header>
                     <h1>Profile<h1>
                 </header>
+
+                <article>
+                    <div class="article"></div>
+                </article>
             </section>
 
+            <hr />
+
             <!--Section Portfolio-->
-            <section>
+            <section id="section-portfolio">
                 <header>
                     <h1>Portfolio<h1>
                 </header>
+
+                <article>
+                    <div class="article"></div>
+                </article>
             </section>
 
+            <hr />
+
             <!--Section Message Us-->
-            <section>
+            <section id="section-message-us">
                 <header>
                     <h1>Message Us<h1>
                 </header>
+
+                <div class="message-container">
+                    <form></form>
+
+                    <div></div>
+                </div>
             </section>
         </main>
 
+        <hr /> 
+
         <!-- Copyright -->
-        <footer></footer> 
+        <footer>
+            <div>Made by Shifa2024</div>
+        </footer> 
     </body>
 
 </html>

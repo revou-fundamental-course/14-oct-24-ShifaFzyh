@@ -1,9 +1,16 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo-icon {
     height: 50px;
     width: 50px;
     background-image: url(../assets/icon.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
 
 nav {
@@ -19,13 +26,22 @@ nav>a {
 
 .photo-banner {
     height: 250px;
-    background-image: url();
+    background-image: url(../assets/Skzooo.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
-footer {
-    text-align: center;
-    font-family: cursive;
+.article {
+    height: 300px;
+}
+
+.message-container {
+    display: flex;
+}
+
+footer>div {
+    text-align: right;
+    font-family: monospace;
+    font-variant: oldstyle-nums;
     font-size: small;
 }
