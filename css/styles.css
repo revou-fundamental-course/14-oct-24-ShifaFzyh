@@ -1,0 +1,31 @@
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/icon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.photo-banner {
+    height: 250px;
+    background-image: url();
+    background-size: cover;
+    background-position: top;
+}
+
+footer {
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+}
