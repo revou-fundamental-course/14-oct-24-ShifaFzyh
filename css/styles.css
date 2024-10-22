@@ -1,4 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .main-header {flex-direction: column;}
+}
+    
+    .logo-icon {margin-bottom: 10px}
+
+@media only screen and (max-width: 600px) {
+    .main-profile {flex-direction: column;}}
+        
+    .aside-profile {
+        width: 100%;
+        flex-direction: column;}
+
 .main-header {
+    background-color: darkgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,15 +40,33 @@ nav>a {
 
 .photo-banner {
     height: 250px;
-    background-image: url(../assets/Skzooo.jpg);
+    background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#style-profile {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.profil-article {
+    height: 30px;
 }
 
 .article {
     height: 300px;
 }
 
+.main-profile {
+    display: flex;
+    margin: 5px;
+}
+
+.aside-profile {
+    padding: 5px;
+    margin-right: auto;
+}
 .message-container {
     display: flex;
 }
