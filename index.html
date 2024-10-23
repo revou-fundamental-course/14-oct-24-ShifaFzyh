@@ -2,7 +2,7 @@
 <html lang="id">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wolfchan Company</title>
+        <title>Wolfchany Company</title>
         <link rel="stylesheet" href="css\styles.css">
     </head>
 
@@ -29,15 +29,23 @@
             <section id="section-home">
                 <header>
                     <h1>Hi <span id="name">User</span>, Welcome to My Website!</h1>
-                    <script src="js\script.js"></script>
                 </header>
 
                 <article>
-                    <p>This is Wolfchan Company, where adorable photos of Skzoo members are available... Enjoy!!</p>
+                    <p>Ini adalah website Wolfchany. Disini kamu akan melihat karakter Skzoo dari member Stray Kids.. Enjoy!!</p>
 
                     <!--Photo Banner-->
-                    <div class="photo-banner"></div>
+                    <div class="photo">
+                    <div class="photo-banner photo-1"></div>
+                    <div class="photo-banner photo-2"></div>
+                    <div class="photo-banner photo-3"></div>
+                    <div class="photo-banner photo-4"></div>
+                    <div class="photo-banner photo-5"></div>
+                    </div>
                 </article>
+
+                <button type="button" onclick="nextSlide(-1)">Prev</button>
+                <button type="button" onclick="nextSlide(1)">Next</button>
             </section>
 
             <hr />
@@ -45,32 +53,44 @@
             <!--Section Profile-->
             <section>
                 <header id="style-profile">
-                    <h1>Company Profile<h1>
+                    <h1>Website Profile<h1>
                 </header>
 
                 <article>
                     <div class="profile-article"></div>
                 </article>
 
+                <!-- Main Profile -->
                 <main class="main-profile">
+
+                <!--Profile-->    
                 <aside class="aside-profile">
                     <fieldset>
-                        <legend><h3>Our Profile</h3></legend>
-                        <p>Website Wolfchan ini dibuat untuk menyelesaikan tugas mini coding project dari RevoU Fundamental Course.</p>
+                        <legend><h3>Profile</h3></legend>
+                        <span>
+                            Website Wolfchany ini adalah website yang dibuat untuk mengenalkan tentang Skzoo, yaitu simbol karakter animasi dari para anggota Stray Kids.
+                            Dan Stray Kids adalah boy group asal Korea Selatan yang berjumlah 8 anggota.
+                        </span>
                     </fieldset>
-                 </aside>
+                </aside>
 
-                 <aside class="aside-profile">
+                <!-- Visi -->
+                <aside class="aside-profile">
                     <fieldset>
-                        <legend><h3>Our Vision</h3></legend>
-                        <p>Untuk mengenalkan semua nama dan karakter member Skzoo.</p>
+                        <legend><h3>Vision</h3></legend>
+                        <p>Untuk mengenalkan nama dan karakter Skzoo dari masing-masing member Stray Kids.</p>
                     </fieldset>
-                 </aside>
+                </aside>
 
-                 <aside class="aside-profile">
+                <!-- Misi -->
+                <aside class="aside-profile">
                     <fieldset>
-                        <legend><h3>Our Mission</h3></legend>
-                        <p>Sebagai hiburan untuk para pembaca yang menyukai Skzoo dan Stray Kids.</p>
+                        <legend><h3>Mission</h3></legend>
+                        <ul>
+                        <li>Sebagai hiburan untuk para pembaca yang menyukai Skzoo dan Stray Kids.</li>
+                        <li>Menjadikan web ini sebagai awal untuk mengetahui Stray Kids.</li>
+                        <li>Untuk menyelesaikan tugas mini coding project dari RevoU Fundamental Course.</li>
+                        </ul>
                     </fieldset>
                  </aside>
                 </main>
@@ -79,22 +99,82 @@
             <hr />
 
             <!--Section Portfolio-->
-            <section id="section-skzoo">
-                <header>
+            <section>
+                <header id="header-skzoo">
                     <h1>Member Skzoo<h1>
                 </header>
 
-                
-
+                <!-- Main Portfolio-->
                 <main>
-                    <p>Wolf Chan</p>
-                    <p>Leebit</p>
-                    <p>Dweakki</p>
-                    <p>Jiniret</p>
-                    <p>Han Quokka</p>
-                    <p>Bbokari</p>
-                    <p>PuppyM</p>
-                    <p>FoxIN</p>
+                    <article id="skzoo-article1">
+                        <section>
+                        <img src="assets/wolfchan1.jpg">
+                            <fieldset>
+                                <legend><b>Wolf Chan</b></legend>
+                                <span>Wolf Chan adalah karakter Skzoo dari member bernama Bangchan sang leader Stray Kids dan juga anggota 3RACHA.</span>
+                            </fieldset>
+                        </section>   
+
+                        <section>
+                            <img src="assets/leebit1.jpg">
+                            <fieldset>
+                               <legend><b>Leebit</b></legend>
+                               <span>Leebit adalah karakter Skzoo dari member bernama Lee Know yang merupakan main dancer dari Stray Kids dan juga anggota Dance RACHA.</span>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <img src="assets/dweakki1.jpg">
+                            <fieldset>
+                                <legend><b>Dweakki</b></legend>
+                                <span>Dewakki adalah karakter Skzoo dari member Changbin si rapper Stray Kids dan juga anggota 3RACHA.</span>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <img src="assets/jiniret1.jpg">
+                            <fieldset>
+                                <legend><b>Jiniret</b></legend>
+                                <span>Jiniret adalah karakter Skzoo dari Hyunjin sang visual Stray Kids, juga merupakan anggota Dance RACHA.</span>
+                            </fieldset>
+                        </section>
+                    </article>
+
+                    <br>
+
+                    <article id="skzoo-article2">
+                        <section>
+                            <img src="assets/hanquoka1.jpg">
+                            <fieldset>
+                                <legend><b>Han Quoka</b></legend>
+                                <span>Han Quoka karakter Skzoo dari member bernama Han Jisung, ace sang Stray Kids dan juga anggota 3RACHA.</span>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <img src="assets/bookkari1.jpg">
+                            <fieldset>
+                                <legend><b>Bbokkari</b></legend>
+                                <span>Bbokkari karakter Skzoo dari member bernama Lee Felix, sering dipanggil sang matahari Stray Kids juga anggota dari Dance RACHA.</span>
+                            </fieldset>
+                        </section>
+                    
+                        <section>
+                            <img src="assets/puppym1.jpg">
+                            <fieldset>
+                                <legend><b>PuppyM</b></legend>
+                                <span>PuppyM adalah karakter Skzoo dari Seungmin, member paling jahil di Stray Kids dan juga anggota Vocal RACHA.</span>
+                            </fieldset>
+                        </section>
+                    
+                        <section>
+                            <img src="assets/foxin1.jpg">
+                            <fieldset>
+                                <legend><b>Foxi.Ny</b></legend>
+                                <span>Foxi.Ny adalah karakter Skzoo dari I.N, si bungsu dari Stray Kids dan juga anggota dari Vocal RACHA.</span>
+                            </fieldset>
+                        </section>
+                    </article>
                 </main>
             </section>
 
@@ -107,9 +187,45 @@
                 </header>
 
                 <div class="message-container">
-                    <form></form>
+                    <form class="message-form" name="message-form" onsubmit="return validateForm()">
+                        <div>
+                            Nama :
+                            <input placeholder="Nama Lengkap" type="text" name="namaLengkap">
+                        </div>
 
-                    <div></div>
+                        <div>
+                            Tanggal Lahir :
+                            <input type="date" name="tglLahir">
+                        </div>
+
+                        <p>
+                            Jenis Kelamin :
+                            <br>
+                            <input type="radio" id="laki" name="jenisKelamin" value="Laki-laki">
+                            <label for="laki">Laki-laki</label>
+                            <br>
+                            <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+                            <label for="perempuan">Perempuan</label>
+                        </p>
+
+                        <div>
+                            Pesan :
+                            <textarea placeholder="Pesan yang ingin disampaikan" name="pesan"></textarea>
+                        </div>
+
+                        <br>
+                        <div><button type="button" onclick="validateForm()">Submit</div>
+                    </form>
+
+                    <!--Hasil Submit-->
+                    <aside class="aside-pesan">
+                    <div>
+                        <p>Nama : <span id="sender-namaLengkap"></span></p>
+                        <p>Tanggal Lahir : <span id="sender-tglLahir"></span></p>
+                        <p>Jenis Kelamin : <span id="sender-jenisKelamin"></span></p>
+                        <p>Pesan : <span id="sender-pesan"></span></p>
+                    </div>
+                    </aside>
                 </div>
             </section>
         </main>
@@ -119,7 +235,8 @@
         <!-- Copyright -->
         <footer>
             <div>Made by Shifa2024</div>
-        </footer> 
+        </footer>
+        <script src="js\script.js"></script>    
     </body>
 
 </html>
