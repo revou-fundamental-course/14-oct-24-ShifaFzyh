@@ -49,14 +49,24 @@ nav>a {
 }
 
 /* Banner */
+@media only screen and (max-width: 400px) {
+    .photo-banner {
+        display: flex; 
+        flex-direction: row;
+    }}
+    .photo {
+        width: 100%;
+        flex-direction: row;
+}
+
 .photo-banner {
-    height: 300px;
-    background-size: cover;
+    height: 270px;
     background-position: center;
+    background-size: cover;
 }
 
 .photo-1 {
-    background-image: url(../assets/banner.jpg);
+    background-image: url(../assets/skzoo1.jpg);
 }
 
 .photo-2 {
@@ -64,7 +74,7 @@ nav>a {
 }
 
 .photo-3 {
-    background-image: url(../assets/skzoo5.jpg);
+    background-image: url(../assets/skzoo9.jpg);
 }
 
 .photo-4 {
@@ -75,20 +85,12 @@ nav>a {
     background-image: url(../assets/skzoo2.jpg);
 }
 
-button {
+.but {
     border-style: hidden
 }
 
-@media only screen and (max-width: 300px) {
-    .photo-banner {flex-direction: column;}}
-
-    .photo {
-        width: 100%;
-        flex-direction: column;
-    }
-
 /* Profil */
-#style-profile {
+.section-profile {
     text-align: center;
     background-color: cadetblue;
 }
@@ -111,8 +113,8 @@ button {
     margin-right: auto;
 }
 
-/*SKZOO*/
-#header-skzoo {
+/* Member SKZOO */
+.section-member {
     text-align: center;
     background-color: cadetblue;
 }
@@ -137,6 +139,11 @@ img {
 }
 
 /* Style Message */
+.section-message-us {
+    text-align: center;
+    background-color: cadetblue;
+}
+
 .message-container {
     display: flex;
     justify-content: flex-start;
